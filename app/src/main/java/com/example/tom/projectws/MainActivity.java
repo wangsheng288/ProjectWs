@@ -124,7 +124,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             }
         };
     }
-    //display notification
+    //display notification1
     private void displayNotification(final String date){
         FirebaseUser user=firebaseAuth.getCurrentUser();
         textview = (TextView) findViewById(R.id.textView);
